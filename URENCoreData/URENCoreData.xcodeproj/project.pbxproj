@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45119D612598F32A008517A1 /* URENCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45119D572598F32A008517A1 /* URENCoreData.framework */; };
+		45119D662598F32A008517A1 /* URENCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45119D652598F32A008517A1 /* URENCoreDataTests.swift */; };
+		45119D682598F32A008517A1 /* URENCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 45119D5A2598F32A008517A1 /* URENCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45119D802598F4DD008517A1 /* CoreDataRepositoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45119D7F2598F4DD008517A1 /* CoreDataRepositoryProvider.swift */; };
+		45119D812598F4DD008517A1 /* CoreDataRepositoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45119D7F2598F4DD008517A1 /* CoreDataRepositoryProvider.swift */; };
+		45119D892598F5B1008517A1 /* BaseCoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45119D882598F5B1008517A1 /* BaseCoreDataRepository.swift */; };
+		45119D8A2598F5B1008517A1 /* BaseCoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45119D882598F5B1008517A1 /* BaseCoreDataRepository.swift */; };
+		45FB3BF725992DE7003901F5 /* URENCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FB3BF625992DE7003901F5 /* URENCore.framework */; };
+		45FB3BF825992DE7003901F5 /* URENCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45FB3BF625992DE7003901F5 /* URENCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		45FD173D25AA618B006B7375 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD173C25AA618B006B7375 /* CoreDataManager.swift */; };
+		45FD173E25AA618B006B7375 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD173C25AA618B006B7375 /* CoreDataManager.swift */; };
+		45FD174125AA676A006B7375 /* URENDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FD174025AA676A006B7375 /* URENDomain.framework */; };
+		45FD174225AA676A006B7375 /* URENDomain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45FD174025AA676A006B7375 /* URENDomain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		45FD174525AB15D5006B7375 /* DomainModelConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD174425AB15D5006B7375 /* DomainModelConvertible.swift */; };
+		45FD174625AB15D5006B7375 /* DomainModelConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD174425AB15D5006B7375 /* DomainModelConvertible.swift */; };
+		45FD194D25AF8520006B7375 /* MovieCoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD194C25AF8520006B7375 /* MovieCoreDataRepository.swift */; };
+		45FD194E25AF8520006B7375 /* MovieCoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD194C25AF8520006B7375 /* MovieCoreDataRepository.swift */; };
+		45FD195225AF8559006B7375 /* MovieLocalRepositoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD195125AF8559006B7375 /* MovieLocalRepositoryProvider.swift */; };
+		45FD195325AF8559006B7375 /* MovieLocalRepositoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD195125AF8559006B7375 /* MovieLocalRepositoryProvider.swift */; };
+		45FD195625AF85AE006B7375 /* MovieLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD195525AF85AE006B7375 /* MovieLocalRepository.swift */; };
+		45FD195725AF85AE006B7375 /* MovieLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD195525AF85AE006B7375 /* MovieLocalRepository.swift */; };
+		45FD199F25B0EF52006B7375 /* CoreDataModels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45FD199D25B0EF52006B7375 /* CoreDataModels.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45119D622598F32A008517A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45119D4E2598F32A008517A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45119D562598F32A008517A1;
+			remoteInfo = URENCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45FB3BF925992DE7003901F5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				45FD174225AA676A006B7375 /* URENDomain.framework in Embed Frameworks */,
+				45FB3BF825992DE7003901F5 /* URENCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		45119D572598F32A008517A1 /* URENCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URENCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45119D5A2598F32A008517A1 /* URENCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URENCoreData.h; sourceTree = "<group>"; };
+		45119D5B2598F32A008517A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45119D602598F32A008517A1 /* URENCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URENCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45119D652598F32A008517A1 /* URENCoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URENCoreDataTests.swift; sourceTree = "<group>"; };
+		45119D672598F32A008517A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45119D7F2598F4DD008517A1 /* CoreDataRepositoryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRepositoryProvider.swift; sourceTree = "<group>"; };
+		45119D882598F5B1008517A1 /* BaseCoreDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoreDataRepository.swift; sourceTree = "<group>"; };
+		45FB3BF625992DE7003901F5 /* URENCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = URENCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FD173C25AA618B006B7375 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		45FD174025AA676A006B7375 /* URENDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = URENDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FD174425AB15D5006B7375 /* DomainModelConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainModelConvertible.swift; sourceTree = "<group>"; };
+		45FD194C25AF8520006B7375 /* MovieCoreDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCoreDataRepository.swift; sourceTree = "<group>"; };
+		45FD195125AF8559006B7375 /* MovieLocalRepositoryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLocalRepositoryProvider.swift; sourceTree = "<group>"; };
+		45FD195525AF85AE006B7375 /* MovieLocalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLocalRepository.swift; sourceTree = "<group>"; };
+		45FD199E25B0EF52006B7375 /* Product.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Product.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45119D542598F32A008517A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FD174125AA676A006B7375 /* URENDomain.framework in Frameworks */,
+				45FB3BF725992DE7003901F5 /* URENCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45119D5D2598F32A008517A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45119D612598F32A008517A1 /* URENCoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45119D4D2598F32A008517A1 = {
+			isa = PBXGroup;
+			children = (
+				45119D592598F32A008517A1 /* URENCoreData */,
+				45119D642598F32A008517A1 /* URENCoreDataTests */,
+				45119D582598F32A008517A1 /* Products */,
+				45FB3BF525992DE7003901F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45119D582598F32A008517A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45119D572598F32A008517A1 /* URENCoreData.framework */,
+				45119D602598F32A008517A1 /* URENCoreDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45119D592598F32A008517A1 /* URENCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				45119D772598F341008517A1 /* CoreData */,
+				45FD199D25B0EF52006B7375 /* CoreDataModels.xcdatamodeld */,
+				45119D5A2598F32A008517A1 /* URENCoreData.h */,
+				45119D5B2598F32A008517A1 /* Info.plist */,
+			);
+			path = URENCoreData;
+			sourceTree = "<group>";
+		};
+		45119D642598F32A008517A1 /* URENCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				45119D652598F32A008517A1 /* URENCoreDataTests.swift */,
+				45119D672598F32A008517A1 /* Info.plist */,
+			);
+			path = URENCoreDataTests;
+			sourceTree = "<group>";
+		};
+		45119D772598F341008517A1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				45FD178B25AB3679006B7375 /* Base */,
+				45FD178C25AB3693006B7375 /* Modules */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		45FB3BF525992DE7003901F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45FD174025AA676A006B7375 /* URENDomain.framework */,
+				45FB3BF625992DE7003901F5 /* URENCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45FD178B25AB3679006B7375 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				45119D7F2598F4DD008517A1 /* CoreDataRepositoryProvider.swift */,
+				45119D882598F5B1008517A1 /* BaseCoreDataRepository.swift */,
+				45FD174425AB15D5006B7375 /* DomainModelConvertible.swift */,
+				45FD173C25AA618B006B7375 /* CoreDataManager.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		45FD178C25AB3693006B7375 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				45FD194B25AF8483006B7375 /* Movie */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		45FD194B25AF8483006B7375 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				45FD194C25AF8520006B7375 /* MovieCoreDataRepository.swift */,
+				45FD195125AF8559006B7375 /* MovieLocalRepositoryProvider.swift */,
+				45FD195525AF85AE006B7375 /* MovieLocalRepository.swift */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		45119D522598F32A008517A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45119D682598F32A008517A1 /* URENCoreData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45119D562598F32A008517A1 /* URENCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45119D6B2598F32A008517A1 /* Build configuration list for PBXNativeTarget "URENCoreData" */;
+			buildPhases = (
+				45119D522598F32A008517A1 /* Headers */,
+				45119D532598F32A008517A1 /* Sources */,
+				45119D542598F32A008517A1 /* Frameworks */,
+				45119D552598F32A008517A1 /* Resources */,
+				45FB3BF925992DE7003901F5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URENCoreData;
+			productName = URENCoreData;
+			productReference = 45119D572598F32A008517A1 /* URENCoreData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45119D5F2598F32A008517A1 /* URENCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45119D6E2598F32A008517A1 /* Build configuration list for PBXNativeTarget "URENCoreDataTests" */;
+			buildPhases = (
+				45119D5C2598F32A008517A1 /* Sources */,
+				45119D5D2598F32A008517A1 /* Frameworks */,
+				45119D5E2598F32A008517A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45119D632598F32A008517A1 /* PBXTargetDependency */,
+			);
+			name = URENCoreDataTests;
+			productName = URENCoreDataTests;
+			productReference = 45119D602598F32A008517A1 /* URENCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45119D4E2598F32A008517A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					45119D562598F32A008517A1 = {
+						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
+					};
+					45119D5F2598F32A008517A1 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 45119D512598F32A008517A1 /* Build configuration list for PBXProject "URENCoreData" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45119D4D2598F32A008517A1;
+			productRefGroup = 45119D582598F32A008517A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45119D562598F32A008517A1 /* URENCoreData */,
+				45119D5F2598F32A008517A1 /* URENCoreDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45119D552598F32A008517A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45119D5E2598F32A008517A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45119D532598F32A008517A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FD195225AF8559006B7375 /* MovieLocalRepositoryProvider.swift in Sources */,
+				45FD195625AF85AE006B7375 /* MovieLocalRepository.swift in Sources */,
+				45119D892598F5B1008517A1 /* BaseCoreDataRepository.swift in Sources */,
+				45FD174525AB15D5006B7375 /* DomainModelConvertible.swift in Sources */,
+				45FD173D25AA618B006B7375 /* CoreDataManager.swift in Sources */,
+				45FD199F25B0EF52006B7375 /* CoreDataModels.xcdatamodeld in Sources */,
+				45FD194D25AF8520006B7375 /* MovieCoreDataRepository.swift in Sources */,
+				45119D802598F4DD008517A1 /* CoreDataRepositoryProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45119D5C2598F32A008517A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FD173E25AA618B006B7375 /* CoreDataManager.swift in Sources */,
+				45119D662598F32A008517A1 /* URENCoreDataTests.swift in Sources */,
+				45FD195325AF8559006B7375 /* MovieLocalRepositoryProvider.swift in Sources */,
+				45119D8A2598F5B1008517A1 /* BaseCoreDataRepository.swift in Sources */,
+				45FD194E25AF8520006B7375 /* MovieCoreDataRepository.swift in Sources */,
+				45119D812598F4DD008517A1 /* CoreDataRepositoryProvider.swift in Sources */,
+				45FD195725AF85AE006B7375 /* MovieLocalRepository.swift in Sources */,
+				45FD174625AB15D5006B7375 /* DomainModelConvertible.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45119D632598F32A008517A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45119D562598F32A008517A1 /* URENCoreData */;
+			targetProxy = 45119D622598F32A008517A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45119D692598F32A008517A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45119D6A2598F32A008517A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45119D6C2598F32A008517A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = URENCoreData/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uren.URENCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45119D6D2598F32A008517A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = URENCoreData/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uren.URENCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45119D6F2598F32A008517A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = URENCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uren.URENCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45119D702598F32A008517A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = URENCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uren.URENCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45119D512598F32A008517A1 /* Build configuration list for PBXProject "URENCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45119D692598F32A008517A1 /* Debug */,
+				45119D6A2598F32A008517A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45119D6B2598F32A008517A1 /* Build configuration list for PBXNativeTarget "URENCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45119D6C2598F32A008517A1 /* Debug */,
+				45119D6D2598F32A008517A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45119D6E2598F32A008517A1 /* Build configuration list for PBXNativeTarget "URENCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45119D6F2598F32A008517A1 /* Debug */,
+				45119D702598F32A008517A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45FD199D25B0EF52006B7375 /* CoreDataModels.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45FD199E25B0EF52006B7375 /* Product.xcdatamodel */,
+			);
+			currentVersion = 45FD199E25B0EF52006B7375 /* Product.xcdatamodel */;
+			name = CoreDataModels.xcdatamodeld;
+			path = CoreData/CoreDataModels.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45119D4E2598F32A008517A1 /* Project object */;
+}

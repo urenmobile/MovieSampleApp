@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  MovieSampleApp
+
+  Created by Remzi YILDIRIM on 1/10/21.
+  
+*/
+
+"error" = "Error";
+"ok" = "OK";
+"cancel" = "Cancel";
+
+"contents" = "Contents";
+"contentDetails" = "Content Details";
+"voteCountFormatted" = "Vote count: %d";
+"searchMovie" = "Search movie";
+
+"noInternetConnection" = "Oops!. Someting went wrong. Make sure your device is connected to the internet.";

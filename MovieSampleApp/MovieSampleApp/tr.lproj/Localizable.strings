@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  MovieSampleApp
+
+  Created by Remzi YILDIRIM on 1/10/21.
+  
+*/
+
+"error" = "Hata";
+"ok" = "Tamam";
+"cancel" = "İptal";
+
+"contents" = "İçerik";
+"contentDetails" = "İçerik Detayı";
+"voteCountFormatted" = "Oy sayısı: %d";
+"searchMovie" = "Film ara";
+
+"noInternetConnection" = "Oops!. Lütfen cihazınızın internete bağlı olduğundan emin olunuz.";
